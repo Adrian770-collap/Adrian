@@ -1,0 +1,76 @@
+body{
+font-family: Arial;
+margin:0;
+background:#1e0f4f;
+color:white;
+}
+
+header{
+padding: 20px;
+font-size:24px;
+font-weight:bold;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.atas img{
+width:100%;
+border-radius:10px;
+}
+
+.movie-section{
+padding:20px;
+}
+
+.movie-container{
+display:grid;
+grid-template-columns: repeat(4,1fr);
+gap:15px;
+}
+
+.movie1-container{
+display:grid;
+grid-template-columns: repeat(6,1fr);
+gap:15px;
+}
+
+.card{
+background:#2a1a6b;
+padding:10px;
+border-radius:10px;
+text-align:center;
+}
+
+.card img{
+width:100%;
+border-radius:8px;
+}
+
+header ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+header a{
+    color: white;
+    text-decoration: none;
+}
+
+.drian {
+    background: url(assets/footer.jpg);
+    background-size: cover;
+    height: 40vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: x-small;
+}
+
+footer{
+    text-align: center;
+    margin-top: 60px;
+}
